@@ -1,0 +1,4 @@
+{'Creditor': 'Яна', 'Debtop': ['Лида'], 'Summ': 2000, 'NameText': 'Дорога', 'ID': 0}
+{'Creditor': 'Лида', 'Debtop': ['Яна'], 'Summ': 500, 'NameText': 'уу', 'ID': 1}
+{'Creditor': 'Яна', 'Debtop': ['Лида'], 'Summ': 200, 'NameText': 'Булочка', 'Time': 1609919845.0994525, 'ID': 2}
+{'Creditor': 'Лида', 'Debtop': ['Ксюша'], 'Summ': 3, 'NameText': 'у', 'Time': 1609919865.3404188, 'ID': 3}
