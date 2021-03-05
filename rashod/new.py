@@ -2,7 +2,7 @@ import main
 def NewEx():
     import time
     arEx = []
-    filer = open("baseEx.txt","r", encoding="utf-8")
+    filer = open("baseEx.txt", "r", encoding="utf-8")
     for line in filer:
         arEx.append(eval(line))
 

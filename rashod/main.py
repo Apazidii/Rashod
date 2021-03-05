@@ -29,7 +29,7 @@ def rebootGroup(dictGroup):
 #   ничего не возвращает
 def reEXs(dictGroup):
     rebootGroup(dictGroup)
-    filer = open("baseEx.txt", "r",encoding="utf-8")
+    filer = open("baseEx.txt", "r", encoding="utf-8")
     arEx = []
     for line in filer:
         arEx.append(eval(line))
@@ -80,7 +80,7 @@ def NewGroup():
     group = group.split()
 
     l = len(group)
-    filew = open("mainEx.txt","w", encoding="utf-8")
+    filew = open("mainEx.txt", "w", encoding="utf-8")
     filew.writelines(str(group))
     dictGroup = {}
     for i in range(0,l):
@@ -111,7 +111,7 @@ def printDeb(man):
     result = {man.Name : [man.Debs,man.IDEx]}
     #result.append(man.Debs)
 
-    filew = open("mainEx.txt","w", encoding="utf-8")
+    filew = open("mainEx.txt", "w", encoding="utf-8")
     filew.writelines(str(head)+"\n")
 
     arMain.update(result)
